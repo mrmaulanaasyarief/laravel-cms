@@ -83,6 +83,7 @@
                 </div>
             </div>
         </div>
+
         <div class="relative -mt-12 lg:-mt-24">
             <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -327,7 +328,7 @@
                 <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
             </div>
             <h3 class="my-4 text-3xl leading-tight">
-                Main Hero Message to sell yourself!
+                Lorem ipsum dolor sit amet!
             </h3>
             <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                 Action!
@@ -348,13 +349,13 @@
                         <p class="uppercase text-gray-500 md:mb-6">Links</p>
                         <ul class="list-reset mb-6">
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">FAQ</a>
+                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-green-700">FAQ</a>
                         </li>
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Help</a>
+                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-green-700">Help</a>
                         </li>
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Support</a>
+                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-green-700">Support</a>
                         </li>
                         </ul>
                     </div>
@@ -362,10 +363,10 @@
                         <p class="uppercase text-gray-500 md:mb-6">Legal</p>
                         <ul class="list-reset mb-6">
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
+                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-green-700">Terms</a>
                         </li>
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
+                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-green-700">Privacy</a>
                         </li>
                         </ul>
                     </div>
@@ -373,13 +374,13 @@
                         <p class="uppercase text-gray-500 md:mb-6">Social</p>
                         <ul class="list-reset mb-6">
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-green-700">Facebook</a>
                         </li>
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
+                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-green-700">Linkedin</a>
                         </li>
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
+                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-green-700">Twitter</a>
                         </li>
                         </ul>
                     </div>
@@ -387,13 +388,13 @@
                         <p class="uppercase text-gray-500 md:mb-6">Company</p>
                         <ul class="list-reset mb-6">
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Official Blog</a>
+                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-green-700">Official Blog</a>
                         </li>
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">About Us</a>
+                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-green-700">About Us</a>
                         </li>
                         <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
+                            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-green-700">Contact</a>
                         </li>
                         </ul>
                     </div>
@@ -421,7 +422,7 @@
                 navaction.classList.add("gradient");
                 navaction.classList.remove("text-gray-800");
                 navaction.classList.add("text-white");
-                //Use to switch toggleColour colours
+                // Use to switch toggleColour colours
                 for (var i = 0; i < toToggle.length; i++) {
                     toToggle[i].classList.add("text-gray-800");
                     toToggle[i].classList.remove("text-white");
