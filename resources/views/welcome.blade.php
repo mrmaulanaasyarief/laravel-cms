@@ -33,7 +33,7 @@
                 </div>
                 <div class="block lg:hidden pr-4">
                 <button id="nav-toggle" class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                    <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="fill-green-800 h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <title>Menu</title>
                     <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
                     </svg>
@@ -104,39 +104,165 @@
             </svg>
         </div>
         <section class="bg-white border-b py-8">
-            <div class="container max-w-5xl mx-auto m-8">
+            <div class="container max-w-5xl mx-auto m-8 text-center">
                 <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-                    Title
+                    Title 1
                 </h2>
                 <div class="w-full mb-4">
                     <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
                 </div>
-                <div class="flex flex-wrap">
-                    <div class="w-5/6 sm:w-1/2 p-6">
-                        <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                        Lorem ipsum dolor sit amet
-                        </h3>
-                        <p class="text-gray-600 mb-8">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                        </p>
-                    </div>
-                    <div class="w-full sm:w-1/2 p-6">
-                        <title>travel booking</title>
+                <h3 class="w-full text-gray-800 my-4 text-3xl leading-tight">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                </h3>
+            </div>
+        </section>
+        <section class="bg-white border-b py-8">
+            <div class="container max-w-5xl mx-auto m-8">
+                <img class="h-auto md:max-w-2xl mx-auto rounded-lg" src="https://www.lintramax.com/wp-content/uploads/all_screens-1536x960.png" alt="image description">
+            </div>
+        </section>
+
+        <section class="bg-white border-b py-8 px-4">
+            <div class="container max-w-5xl mx-auto m-8 text-center">
+                <h2 class="w-full my-2 text-5xl font-bold leading-tight text-gray-800">
+                    Title 2
+                </h2>
+                <div class="w-full mb-4">
+                    <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+                </div>
+                <h3 class="w-full text-gray-800 my-4 text-3xl leading-tight sm:text-lg sm:leading-7">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                </h3>
+            </div>
+            <div class="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
+                <div class="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-green-200 p-2">
+                    <div class="flex h-[180px] flex-col justify-between rounded-md p-6">
+                        <svg viewBox="0 0 24 24" class="h-12 w-12 fill-green-800">
+                            <path
+                                d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z">
+                            </path>
+                        </svg>
+                        <div class="space-y-2 text-gray-800">
+                            <h3 class="font-bold">Lorem Ipsum</h3>
+                            <p class="text-sm text-muted-foreground">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex flex-wrap flex-col-reverse sm:flex-row">
-                    <div class="w-full sm:w-1/2 p-6 mt-6">\
-                        <title>connected world</title>
-                    </div>
-                    <div class="w-full sm:w-1/2 p-6 mt-6">
-                        <div class="align-middle">
-                        <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                            Lorem ipsum dolor sit amet
-                        </h3>
-                        <p class="text-gray-600 mb-8">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                        </p>
+                <div class="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-green-200 p-2">
+                    <div class="flex h-[180px] flex-col justify-between rounded-md p-6">
+                        <svg viewBox="0 0 24 24" class="h-12 w-12 fill-green-800">
+                            <path
+                                d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z">
+                            </path>
+                        </svg>
+                        <div class="space-y-2 text-gray-800">
+                            <h3 class="font-bold">Lorem Ipsum</h3>
+                            <p class="text-sm text-muted-foreground">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
                         </div>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-green-200 p-2">
+                    <div class="flex h-[180px] flex-col justify-between rounded-md p-6">
+                        <svg viewBox="0 0 24 24" class="h-12 w-12 fill-green-800">
+                            <path
+                                d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z">
+                            </path>
+                        </svg>
+                        <div class="space-y-2 text-gray-800">
+                            <h3 class="font-bold">Lorem Ipsum</h3>
+                            <p class="text-sm text-muted-foreground">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-green-200 p-2">
+                    <div class="flex h-[180px] flex-col justify-between rounded-md p-6">
+                        <svg viewBox="0 0 24 24" class="h-12 w-12 fill-green-800">
+                            <path
+                                d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z">
+                            </path>
+                        </svg>
+                        <div class="space-y-2 text-gray-800">
+                            <h3 class="font-bold">Lorem Ipsum</h3>
+                            <p class="text-sm text-muted-foreground">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-white border-b py-8">
+            <div class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
+                <div class="col-span-2 mb-8">
+                    <p class="text-lg font-medium text-green-800 dark:text-green-600">Lorem Ipsum</p>
+                    <h2 class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">Trusted
+                        Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
+                    <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</p>
+                    <div class="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
+                        <div>
+                            <a href="#"
+                                class="inline-flex items-center text-base font-medium text-green-800 hover:text-purple-800 dark:text-green-600 dark:hover:text-purple-700">
+                                Lorem ipsum dolor sit amet
+                                <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#"
+                                class="inline-flex items-center text-base font-medium text-green-800 hover:text-purple-800 dark:text-green-600 dark:hover:text-purple-700">
+                                Lorem ipsum dolor
+                                <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
+                    <div>
+                        <svg class="w-10 h-10 mb-2 text-green-800 md:w-12 md:h-12 dark:text-green-600" fill="currentColor"
+                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <h3 class="mb-2 text-2xl font-bold text-gray-800 dark:text-white">99.99% uptime</h3>
+                        <p class="font-light text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+                    <div>
+                        <svg class="w-10 h-10 mb-2 text-green-800 md:w-12 md:h-12 dark:text-green-600" fill="currentColor"
+                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z">
+                            </path>
+                        </svg>
+                        <h3 class="mb-2 text-2xl font-bold text-gray-800 dark:text-white">600M+ Users</h3>
+                        <p class="font-light text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div>
+                        <svg class="w-10 h-10 mb-2 text-green-800 md:w-12 md:h-12 dark:text-green-600" fill="currentColor"
+                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <h3 class="mb-2 text-2xl font-bold text-gray-800 dark:text-white">100+ countries</h3>
+                        <p class="font-light text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    </div>
+                    <div>
+                        <svg class="w-10 h-10 mb-2 text-green-800 md:w-12 md:h-12 dark:text-green-600" fill="currentColor"
+                            viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z">
+                            </path>
+                        </svg>
+                        <h3 class="mb-2 text-2xl font-bold text-gray-800 dark:text-white">5+ Million</h3>
+                        <p class="font-light text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit</p>
                     </div>
                 </div>
             </div>
@@ -144,7 +270,7 @@
         <section class="bg-white border-b py-8">
             <div class="container mx-auto flex flex-wrap pt-4 pb-12">
                 <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-                Title
+                Title 3
                 </h2>
                 <div class="w-full mb-4">
                     <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -212,6 +338,113 @@
                         <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                             Action
                         </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+                    <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+                        <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+                        <p class="w-full text-gray-600 text-xs md:text-sm px-6">
+                            xGETTING STARTED
+                        </p>
+                        <div class="w-full font-bold text-xl text-gray-800 px-6">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                        <p class="text-gray-800 text-base px-6 mb-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                        </p>
+                        </a>
+                    </div>
+                    <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+                        <div class="flex items-center justify-end">
+                        <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                            Action
+                        </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+                    <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+                        <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+                        <p class="w-full text-gray-600 text-xs md:text-sm px-6">
+                            xGETTING STARTED
+                        </p>
+                        <div class="w-full font-bold text-xl text-gray-800 px-6">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                        <p class="text-gray-800 text-base px-6 mb-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                        </p>
+                        </a>
+                    </div>
+                    <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+                        <div class="flex items-center justify-end">
+                        <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                            Action
+                        </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+                    <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+                        <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+                        <p class="w-full text-gray-600 text-xs md:text-sm px-6">
+                            xGETTING STARTED
+                        </p>
+                        <div class="w-full font-bold text-xl text-gray-800 px-6">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                        <p class="text-gray-800 text-base px-6 mb-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                        </p>
+                        </a>
+                    </div>
+                    <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+                        <div class="flex items-center justify-end">
+                        <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                            Action
+                        </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-white border-b py-8">
+            <div class="container max-w-5xl mx-auto m-8">
+                <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+                    Title
+                </h2>
+                <div class="w-full mb-4">
+                    <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+                </div>
+                <div class="flex flex-wrap">
+                    <div class="w-5/6 sm:w-1/2 p-6">
+                        <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                        Lorem ipsum dolor sit amet
+                        </h3>
+                        <p class="text-gray-600 mb-8">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                        </p>
+                    </div>
+                    <div class="w-full sm:w-1/2 p-6">
+                        <title>travel booking</title>
+                    </div>
+                </div>
+                <div class="flex flex-wrap flex-col-reverse sm:flex-row">
+                    <div class="w-full sm:w-1/2 p-6 mt-6">\
+                        <title>connected world</title>
+                    </div>
+                    <div class="w-full sm:w-1/2 p-6 mt-6">
+                        <div class="align-middle">
+                        <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                            Lorem ipsum dolor sit amet
+                        </h3>
+                        <p class="text-gray-600 mb-8">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                        </p>
                         </div>
                     </div>
                 </div>
